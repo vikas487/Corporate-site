@@ -1,71 +1,28 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Corporate-site
+
+## 🏢 Project Overview
+This project is a modern, responsive **Single Page Application (SPA)** designed as a corporate landing page. It is structured to showcase a company's profile, services, team, and pricing all on one continuous scrolling page.
+
+## 🛠️ Tech Stack & Dependencies
+*   **Core Framework:** React (v18.2.0)
+*   **UI / Styling:** React Bootstrap (v2.5.0) and standard Bootstrap CSS (v5.2.0). 
+*   **Build Tool:** Create React App (`react-scripts` v5.0.1)
+*   **Testing:** Jest and React Testing Library
+
+## 🏗️ Architecture & Component Structure
+The application is highly modularized. The main layout is controlled by `App.js`, which vertically stacks several independent React components. All of these components are neatly organized in the `src/components/` directory.
+
+Here is the top-to-bottom layout of the website based on the rendered components:
+1.  **Header (`header.js`)**: The top navigation bar, likely containing the company logo and scrollable anchor links to different sections of the page.
+2.  **Hero (`hero.js`)**: The main introduction banner at the very top of the site. It usually features a bold headline, subtitle, and a primary Call-To-Action (CTA) button.
+3.  **About (`about.js`)**: A section dedicated to the company's background, mission statement, or core values.
+4.  **Services (`services.js`)**: Highlights what the company does, likely using a grid layout with icons to list different services provided.
+5.  **Works (`works.js`)**: A portfolio or project showcase section, displaying past client work or case studies.
+6.  **Teams (`teams.js`)**: Introduces the leadership or core team members, typically featuring names, roles, photos, and social media links.
+7.  **Testimonials (`testimonials.js`)**: Features client reviews and quotes to build trust and social proof.
+8.  **Pricing (`pricing.js`)**: Displays available pricing tiers or subscription plans in a structured card format.
+9.  **Blog (`blog.js`)**: A section showcasing recent articles, company news, or updates.
+10. **Contact (`contact.js`)**: The bottom-most interactive section, likely containing a contact form, company address, email, and possibly a map integration.
+11. **Footer (`footer.js`)**: The base of the website containing copyright information, secondary navigation links, and social media icons.
+
+
