@@ -6,8 +6,8 @@ This project is a modern, responsive **Single Page Application (SPA)** designed 
 ## 🛠️ Tech Stack & Dependencies
 *   **Core Framework:** React (v18.2.0)
 *   **UI / Styling:** React Bootstrap (v2.5.0) and standard Bootstrap CSS (v5.2.0). 
-*   **Build Tool:** Create React App (`react-scripts` v5.0.1)
-*   **Testing:** Jest and React Testing Library
+   
+
 
 ## 🏗️ Architecture & Component Structure
 The application is highly modularized. The main layout is controlled by `App.js`, which vertically stacks several independent React components. All of these components are neatly organized in the `src/components/` directory.
